@@ -1,0 +1,13 @@
+/* Set body and container to fill the viewport */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrolling */
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
